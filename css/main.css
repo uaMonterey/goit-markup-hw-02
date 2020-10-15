@@ -12,7 +12,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/roboto/roboto-v20-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/roboto/roboto-v20-latin_cyrillic-regular.eot');
   src: local('Roboto'), local('Roboto-Regular'),
     url('../fonts/roboto/roboto-v20-latin_cyrillic-regular.eot?#iefix')
       format('embedded-opentype'),
@@ -33,7 +33,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  src: url('../fonts/roboto/roboto-v20-latin_cyrillic-500.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/roboto/roboto-v20-latin_cyrillic-500.eot');
   src: local('Roboto Medium'), local('Roboto-Medium'),
     url('../fonts/roboto/roboto-v20-latin_cyrillic-500.eot?#iefix')
       format('embedded-opentype'),
@@ -53,7 +53,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/roboto/roboto-v20-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/roboto/roboto-v20-latin_cyrillic-700.eot');
   src: local('Roboto Bold'), local('Roboto-Bold'),
     url('../fonts/roboto/roboto-v20-latin_cyrillic-700.eot?#iefix')
       format('embedded-opentype'),
@@ -73,7 +73,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
-  src: url('../fonts/roboto/roboto-v20-latin_cyrillic-900.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/roboto/roboto-v20-latin_cyrillic-900.eot');
   src: local('Roboto Black'), local('Roboto-Black'),
     url('../fonts/roboto/roboto-v20-latin_cyrillic-900.eot?#iefix')
       format('embedded-opentype'),
@@ -91,38 +91,29 @@
 
 :root {
   --main-text-color: #757575;
-  --scnd-text-color: #212121;
+  --title-text-color: #212121;
   --accent: #2196f3;
+  --white: #ffffff;
   --footer-contact: rgba (255, 255, 255, 0.6);
   --main-bgc: #ffffff;
   --scnd-bgc: #2f303a;
   --third-bgc: #f5f4fa;
 }
 
+/* Стилизация index.html */
+
 .list {
   list-style: none;
 }
-.page {
+body {
   background-color: var(--main-bgc);
   color: var(--main-text-color);
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
-}
-
-/* Стилизуреться логотип */
-.logo {
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.192;
   letter-spacing: 0.03em;
-  color: #2196f3;
-}
-.logo-header {
-  color: #212121;
 }
 
+/* Стилизация Чердака */
 .page-header .link {
   text-decoration: none;
   font-weight: 500;
@@ -130,4 +121,111 @@
   line-height: 1.142;
   letter-spacing: 0.02em;
   color: #212121;
+}
+.site-nav .link.current {
+  color: var(--accent);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent);
+}
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: var(--accent);
+}
+.logo {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  color: #2196f3;
+}
+.logo-header {
+  color: var(--title-text-color);
+}
+.header-contacts .link {
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* Стилизирует секцию Герой */
+.hero {
+  background-color: var(--scnd-bgc);
+}
+.hero-title {
+  color: var(--white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  background-color: var(--accent);
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+.title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+}
+
+/* Стилизация секции Особенности  */
+.features .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-transform: uppercase;
+}
+.features-skill {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+/* Стилизация секции Наша команда */
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+}
+.team .title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.187;
+}
+.team .position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+}
+
+/* Стилизация подвала  */
+.footer {
+  background-color: #2f303a;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+}
+.logo-footer {
+  color: var(--white);
+}
+.footer-contacts p {
+  text-decoration: none;
+  font-style: normal;
+  color: #ffffff;
+}
+.footer-contacts a {
+  text-decoration: none;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
 }

@@ -153,8 +153,8 @@ body {
 .portfolio-title {
   color: var(--title-text-color);
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.166;
+  font-size: 18px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .portfolio p {

@@ -107,18 +107,19 @@
 }
 body {
   background-color: var(--main-bgc);
-  color: var(--main-text-color);
+
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
 
 /* Стилизация Чердака */
 .page-header .link {
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: #212121;
 }
 .site-nav .link.current {
@@ -133,27 +134,27 @@ body {
   color: var(--accent);
 }
 .logo {
-  text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
   color: #2196f3;
 }
 .logo-header {
   color: var(--title-text-color);
 }
 .header-contacts .link {
-  color: var(--main-text-color);
   text-decoration: none;
+  color: var(--main-text-color);
 }
 /* Стилизация портфолио */
 .portfolio-title {
-  color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--title-text-color);
 }
 .portfolio p {
   font-size: 16px;
@@ -164,10 +165,11 @@ body {
 }
 .btn {
   background-color: var(--third-bgc);
-  color: var(--title-text-color);
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  color: var(--title-text-color);
 }
 .btn:hover,
 .btn:focus {
@@ -178,6 +180,7 @@ body {
 /* Стилизация подвала  */
 .footer {
   background-color: #2f303a;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -186,12 +189,12 @@ body {
   color: var(--white);
 }
 .footer-contacts p {
-  text-decoration: none;
   font-style: normal;
+  text-decoration: none;
   color: #ffffff;
 }
 .footer-contacts a {
-  text-decoration: none;
   font-style: normal;
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }

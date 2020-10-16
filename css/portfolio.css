@@ -149,41 +149,48 @@ body {
   text-decoration: none;
   font-style: normal;
 }
-
-/* Стилизирует секцию Герой */
-.hero {
-  background-color: var(--scnd-bgc);
-}
-.hero-title {
-  color: var(--white);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.363;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-.button {
-  background-color: var(--accent);
-  color: var(--white);
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-}
-.title {
+/* Стилизация портфолио */
+.portfolio-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
+  letter-spacing: 0.06em;
+}
+.portfolio p {
+  font-size: 16px;
+  line-height: 1.87;
+}
+.btn {
+  background-color: var(--third-bgc);
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent);
+  color: var(--white);
 }
 
-/* Кнопки */
-.button {
-  color: var(--primary-text-color);
+/* Стилизация подвала  */
+.footer {
+  background-color: #2f303a;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
 }
-.button.simple:hover,
-.simple:focus {
-  background-color: var(--accent-text-color);
-  color: var(--primary-white-color);
+.logo-footer {
+  color: var(--white);
+}
+.footer-contacts p {
+  text-decoration: none;
+  font-style: normal;
+  color: #ffffff;
+}
+.footer-contacts a {
+  text-decoration: none;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
 }

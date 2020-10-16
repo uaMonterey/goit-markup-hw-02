@@ -118,7 +118,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.142;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -138,7 +138,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.192;
+  line-height: 1.19;
   color: #2196f3;
 }
 .logo-header {
@@ -161,6 +161,9 @@ body {
   font-size: 16px;
   line-height: 1.87;
 }
+.button {
+  font-family: inherit;
+}
 .btn {
   background-color: var(--third-bgc);
   color: var(--title-text-color);
@@ -179,7 +182,7 @@ body {
   background-color: #2f303a;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.71;
 }
 .logo-footer {
   color: var(--white);

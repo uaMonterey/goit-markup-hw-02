@@ -158,7 +158,7 @@ body {
   color: var(--white);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.363;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -175,20 +175,20 @@ body {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.166;
+  line-height: 1.17;
 }
 
 /* Стилизация секции Особенности  */
 .features .title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.143;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 .features-skill {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.71;
 }
 
 /* Стилизация секции Наша команда */
@@ -196,17 +196,17 @@ body {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.166;
+  line-height: 1.17;
 }
 .team .title {
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.187;
+  line-height: 1.19;
 }
 .team .position {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.187;
+  line-height: 1.18;
 }
 
 /* Стилизация подвала  */
@@ -214,7 +214,7 @@ body {
   background-color: #2f303a;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.71;
 }
 .logo-footer {
   color: var(--white);
